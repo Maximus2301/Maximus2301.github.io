@@ -1,51 +1,48 @@
 # Personal Portfolio - Pankaj Kumar Bharti
 
-Professional portfolio website showcasing automotive product leadership expertise.
+Professional portfolio site for technical product leadership roles across AI-native platforms, connected mobility, EV programs, and software-defined vehicle systems.
 
-## 🌐 Live Site
+## Live Site
 
 **URL:** [https://maximus2301.github.io](https://maximus2301.github.io)
 
-## 📋 Overview
+## Overview
 
-This is a single-page portfolio website featuring:
+This repository contains a static portfolio site designed to present:
 
-- **Professional Summary**: 15+ years in automotive connectivity, EV, and Industry 4.0
-- **Work Experience**: Matter Motor Works, Mahindra & Mahindra, Maruti Suzuki
-- **Core Competencies**: Product Management, Automotive Technologies, Digital & Cloud
-- **Education**: M.Tech (BITS Pilani), B.Tech (CUSAT)
-- **Contact Links**: Email, GitHub, LinkedIn
+- Technical product leadership in AI-native platforms, automotive connectivity, EV, OTA, and Industry 4.0
+- Career history across Matter, Maruti Suzuki, Mahindra & Mahindra, and KPIT Technologies
+- Functional depth across product strategy, cross-functional execution, telematics, cloud integration, AI systems, and connected platforms
+- Education background from BITS Pilani and CUSAT
+- Patents, publication, and direct contact paths for hiring conversations
 
-## 🛠️ Tech Stack
+## Tech Stack
 
-- Pure HTML5 & CSS3
-- Responsive design (mobile-friendly)
-- Gradient purple theme
-- No external dependencies
+- HTML5
+- CSS3
+- Minimal vanilla JavaScript
+- No build step
 
-## 📁 Files
+## Project Structure
 
 - `index.html` - Main portfolio page
-- `resume.pdf` - Downloadable resume (to be uploaded)
+- `assets/css/styles.css` - Visual system and responsive layout
+- `assets/images/pankaj-kumar-bharti.png` - Profile image used in the hero section
+- `assets/docs/pankaj-kumar-bharti-resume-202604.pdf` - Downloadable resume
+- `assets/js/site.js` - Small progressive enhancement for footer year
+- `PORTFOLIO_REVIEW.md` - Gap analysis and recommendations for stronger positioning
 
-## 📝 Next Steps
+## Notes
 
-1. **Upload Resume PDF**: Add `resume.pdf` to enable the download button
-2. **Custom Domain** (Optional): Point `zentraai.in` to this GitHub Pages site
-3. **Update Content**: Edit `index.html` to refine details as needed
+- The site includes a downloadable resume PDF and profile image.
+- The canonical contact email across the repository is `pankaj.bharti10@gmail.com`.
 
-## 🚀 Deployment
+## Deployment
 
-Automatically deployed via **GitHub Pages** from the `main` branch.
+Automatically deployed through GitHub Pages from the `main` branch.
 
-Any commits to `main` will trigger automatic redeployment.
+## Contact
 
-## 📧 Contact
-
-- **Email**: vyantec@gmail.com
+- **Email**: pankaj.bharti10@gmail.com
 - **GitHub**: [Maximus2301](https://github.com/Maximus2301)
 - **LinkedIn**: [pankaj-kumar-bharti](https://www.linkedin.com/in/pankaj-kumar-bharti)
-
----
-
-*Created: April 2026*
