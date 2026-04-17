@@ -869,6 +869,15 @@ a {
     line-height: 1.85;
 }
 
+.pf-section-subtitle {
+    margin: 28px 0 14px;
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 1.6px;
+    text-transform: uppercase;
+    color: var(--gray-light);
+}
+
 .pf-insight {
     margin: 24px 0;
     padding: 28px 32px;
@@ -975,6 +984,105 @@ a {
     line-height: 1.75;
     color: #7a4f10;
     font-style: italic;
+}
+
+.pf-patent-featured,
+.pf-patent-grid {
+    display: grid;
+    gap: 12px;
+}
+
+.pf-patent-featured {
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 8px;
+}
+
+.pf-patent-grid {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.pf-patent-card {
+    background: var(--white);
+    border: 1px solid var(--gray-rule);
+    border-radius: 10px;
+    padding: 20px 22px;
+    transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.pf-patent-card:hover {
+    border-color: var(--amber);
+    box-shadow: 0 4px 16px rgba(193, 127, 36, 0.08);
+}
+
+.pf-patent-card.featured {
+    background: linear-gradient(180deg, #fffdfa 0%, #fff8ef 100%);
+}
+
+.pf-patent-head {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 12px;
+}
+
+.pf-patent-code {
+    margin-bottom: 6px;
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: var(--amber);
+}
+
+.pf-patent-title {
+    margin: 0;
+    font-family: "Playfair Display", serif;
+    font-size: 18px;
+    line-height: 1.35;
+    color: var(--black);
+}
+
+.pf-patent-badge {
+    flex-shrink: 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 28px;
+    padding: 0 10px;
+    border-radius: 999px;
+    background: var(--amber-light);
+    border: 1px solid #f0c878;
+    color: #7a4f10;
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.pf-patent-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-top: 12px;
+}
+
+.pf-patent-meta span {
+    display: inline-flex;
+    align-items: center;
+    min-height: 24px;
+    padding: 0 8px;
+    border-radius: 4px;
+    background: var(--sidebar-bg);
+    border: 1px solid var(--gray-rule);
+    color: var(--gray-mid);
+    font-size: 10.5px;
+}
+
+.pf-patent-text {
+    margin: 14px 0 0;
+    font-size: 13px;
+    line-height: 1.75;
+    color: var(--gray-mid);
 }
 
 .pf-caps {
@@ -1239,7 +1347,9 @@ a {
 
     .anecdotes,
     .pf-caps,
-    .pf-ai-flow {
+    .pf-ai-flow,
+    .pf-patent-featured,
+    .pf-patent-grid {
         grid-template-columns: 1fr;
     }
 

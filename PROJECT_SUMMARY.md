@@ -18,6 +18,7 @@ This repository hosts the public GitHub Pages portfolio for Pankaj Kumar Bharti.
     - Agentic RAG for issue intelligence
     - Manufacturing validation and digital traceability
     - Connected mobility portfolio
+    - Granted patents with top-4 value-creation highlights and all-12 summaries
     - Signals and reflection
 - `about.html`
   - Personal positioning page

@@ -65,3 +65,34 @@ Make session logging the default convention for future Codex work and add a comp
 ### Follow-up
 
 - Commit and push all current changes to `main`.
+
+## 2026-04-17 - Patent Portfolio Expansion
+
+### Objective
+
+Expand the portfolio page to cover the granted patent portfolio in more depth and align the top-value patent highlights with the existing internal prioritization deck.
+
+### Key Changes
+
+- Added a dedicated `Patents` section to `portfolio.html`.
+- Highlighted the top 4 value-creation patents for Matter based on the internal deck.
+- Added summary cards for all 12 granted patents with title, grant status, application number, division, sub division, and concise abstract summaries.
+- Updated `PROJECT_SUMMARY.md` to reflect the new patent section structure.
+- Located the internal PPT at `/mnt/c/Users/Pankaj.Kumar/Downloads/Top 4 Patent - 2026.pptx`.
+
+### Files Changed
+
+- `portfolio.html`
+- `assets/css/styles.css`
+- `PROJECT_SUMMARY.md`
+- `SESSION_LOG.md`
+
+### Verification
+
+- Confirmed the `Patents` navigation item and section exist in `portfolio.html`.
+- Verified the updated `portfolio.html` returns `200 OK` from the local preview server.
+- Confirmed the internal PPT file exists at the expected Windows-mapped path.
+
+### Follow-up
+
+- Commit and push the patent-focused portfolio update to `main`.
