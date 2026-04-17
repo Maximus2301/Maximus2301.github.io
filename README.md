@@ -25,17 +25,23 @@ This repository contains a static portfolio site designed to present:
 
 ## Project Structure
 
-- `index.html` - Main portfolio page
-- `assets/css/styles.css` - Visual system and responsive layout
+- `index.html` - Resume page
+- `portfolio.html` - Project and case-study page
+- `about.html` - Personal positioning page
+- `assets/css/styles.css` - Shared visual system and responsive layout
 - `assets/images/pankaj-kumar-bharti.png` - Profile image used in the hero section
 - `assets/docs/pankaj-kumar-bharti-resume-202604.pdf` - Downloadable resume
-- `assets/js/site.js` - Small progressive enhancement for footer year
+- `assets/js/site.js` - Minimal interactive behavior for portfolio sections
+- `PROJECT_SUMMARY.md` - Fast project reference for future sessions
+- `SESSION_LOG.md` - Ongoing session history
+- `AGENTS.md` - Repository instructions for future Codex sessions
 - `PORTFOLIO_REVIEW.md` - Gap analysis and recommendations for stronger positioning
 
 ## Notes
 
 - The site includes a downloadable resume PDF and profile image.
 - The canonical contact email across the repository is `pankaj.bharti10@gmail.com`.
+- The site now follows a three-page structure: `Resume`, `Portfolio`, and `About Me`.
 
 ## Deployment
 
