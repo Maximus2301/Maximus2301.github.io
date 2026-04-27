@@ -158,3 +158,34 @@ Optimize the resume print stylesheet so `Print / Save PDF` fits within at most t
 ### Follow-up
 
 - Commit and push the print optimization update to `main`.
+
+## 2026-04-27 - Dedicated Two-Page Print Resume
+
+### Objective
+
+Replace brute-force print compression with a dedicated two-page print template modeled more closely on the source resume structure.
+
+### Key Changes
+
+- Wrapped the website resume in a screen-only container.
+- Added a dedicated print-only resume template in `index.html`.
+- Structured the print template into exactly two print pages.
+- Reworked print CSS to show the new template and hide the screen layout during print/PDF generation.
+- Kept the live website layout unchanged for normal browsing.
+
+### Files Changed
+
+- `index.html`
+- `assets/css/styles.css`
+- `SESSION_LOG.md`
+
+### Verification
+
+- Confirmed the page still returns `200 OK` from the local preview server.
+- Confirmed `index.html` contains both screen and print wrappers.
+- Confirmed the print template contains two explicit print pages.
+- Full rendered PDF pagination was not mechanically verified because no browser-based PDF renderer is installed in this environment.
+
+### Follow-up
+
+- Commit and push the dedicated print-template update to `main`.
