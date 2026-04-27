@@ -183,3 +183,29 @@ Roll back the dedicated print-only resume template because the visual result was
 ### Follow-up
 
 - Push the revert to `main`.
+
+## 2026-04-27 - Regenerate Downloadable Resume PDF
+
+### Objective
+
+Update the downloadable resume PDF so its content matches the current HTML resume positioning and experience language.
+
+### Key Changes
+
+- Replaced `assets/docs/pankaj-kumar-bharti-resume-202604.pdf` with a newly generated two-page A4 resume PDF.
+- Aligned the PDF copy to the current HTML resume content, including updated summary, skills, experience, and signals.
+- Preserved a recruiter-friendly, ATS-readable text structure in the generated PDF.
+
+### Files Changed
+
+- `assets/docs/pankaj-kumar-bharti-resume-202604.pdf`
+- `SESSION_LOG.md`
+
+### Verification
+
+- Verified the regenerated PDF is 2 pages in A4 format using `pdfinfo`.
+- Verified text extraction works using `pdftotext`.
+
+### Follow-up
+
+- Commit and push the updated downloadable PDF to `main`.
