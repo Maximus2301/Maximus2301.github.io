@@ -129,3 +129,32 @@ Rewrite the site copy section by section to improve ATS friendliness, recruiter 
 ### Follow-up
 
 - Commit and push the ATS-optimized rewrite to `main`.
+
+## 2026-04-27 - Print Layout Compression
+
+### Objective
+
+Optimize the resume print stylesheet so `Print / Save PDF` fits within at most two A4 pages.
+
+### Key Changes
+
+- Added explicit `@page` A4 sizing and margins.
+- Compressed print-only spacing, font sizes, hero area, and layout density for the resume page.
+- Hid low-value print elements such as skill/job tags in print mode.
+- Added print-specific page-break avoidance for sections and job entries.
+- Simplified print colors for cleaner PDF output and lower visual noise.
+
+### Files Changed
+
+- `assets/css/styles.css`
+- `SESSION_LOG.md`
+
+### Verification
+
+- Verified the site still serves successfully from the local preview server.
+- Confirmed print-specific CSS rules are present.
+- Full rendered PDF page-count validation was not possible in this environment because no headless browser or PDF print tool is installed.
+
+### Follow-up
+
+- Commit and push the print optimization update to `main`.
