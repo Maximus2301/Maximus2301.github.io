@@ -46,6 +46,7 @@ This repository hosts the public GitHub Pages portfolio for Pankaj Kumar Bharti.
 - Resume page should remain concise and recruiter-friendly.
 - Portfolio page should contain the deeper project and case-study material.
 - About page should explain working style, operating principles, and positioning.
+- Copy should stay optimized for recruiter scanning and ATS keyword coverage, especially on the resume page.
 - Resume PDF should stay available at `assets/docs/pankaj-kumar-bharti-resume-202604.pdf`.
 
 ## Technical Notes

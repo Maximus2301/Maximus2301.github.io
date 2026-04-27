@@ -96,3 +96,36 @@ Expand the portfolio page to cover the granted patent portfolio in more depth an
 ### Follow-up
 
 - Commit and push the patent-focused portfolio update to `main`.
+
+## 2026-04-27 - ATS And Recruiter Optimization Rewrite
+
+### Objective
+
+Rewrite the site copy section by section to improve ATS friendliness, recruiter clarity, and hiring-market positioning.
+
+### Key Changes
+
+- Repositioned the hero and summary copy around a clearer market-facing product leadership narrative.
+- Expanded keyword coverage across the resume page with stronger product, platform, and execution terminology.
+- Rewrote experience bullets to emphasize product ownership, roadmap leadership, standards-aligned systems work, and business relevance.
+- Removed weak meta/process language from the portfolio hero.
+- Reframed portfolio sections toward recruiter-readable product outcomes instead of internal or architecture-heavy descriptions.
+- Compressed the all-12 patent presentation into recruiter-friendlier thematic coverage while preserving the top-4 featured patents.
+- Tightened the About page to support recruiter positioning without over-indexing on low-signal philosophy.
+
+### Files Changed
+
+- `index.html`
+- `portfolio.html`
+- `about.html`
+- `PROJECT_SUMMARY.md`
+- `SESSION_LOG.md`
+
+### Verification
+
+- Verified `index.html`, `portfolio.html`, and `about.html` all returned `200 OK` from the local preview server.
+- Confirmed benchmark/meta wording was removed from the rewritten pages.
+
+### Follow-up
+
+- Commit and push the ATS-optimized rewrite to `main`.
