@@ -158,3 +158,28 @@ Optimize the resume print stylesheet so `Print / Save PDF` fits within at most t
 ### Follow-up
 
 - Commit and push the print optimization update to `main`.
+
+## 2026-04-27 - Revert Dedicated Print Template
+
+### Objective
+
+Roll back the dedicated print-only resume template because the visual result was not acceptable.
+
+### Key Changes
+
+- Reverted commit `a6a01c5` (`Add dedicated two-page print resume template`).
+- Restored the prior resume page structure and removed the print-only template experiment.
+
+### Files Changed
+
+- `index.html`
+- `assets/css/styles.css`
+- `SESSION_LOG.md`
+
+### Verification
+
+- Confirmed the revert applied cleanly on a clean worktree.
+
+### Follow-up
+
+- Push the revert to `main`.
